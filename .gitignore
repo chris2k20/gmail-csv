@@ -1,0 +1,73 @@
+# Ignore compiled files
+*.class
+*.o
+*.obj
+
+# Ignore OS or editor-specific files
+.DS_Store
+Thumbs.db
+.idea/
+
+# Ignore build directories
+/build/
+/out/
+/bin/
+
+# Ignore dependency directories
+/node_modules/
+/vendor/
+
+# Ignore log files
+*.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore sensitive or private information
+config.ini
+secrets.json
+
+# Ignore generated documentation
+/docs/
+
+# Ignore user-specific files
+*.bak
+*.tmp
+*.swp
+*.~
+
+# Ignore cache or temporary files
+.cache/
+.temp/
+
+# Ignore compiled binaries or executables
+*.exe
+*.dll
+*.so
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+Gemfile.lock
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore media files
+*.jpg
+*.gif
+
+# Ignore backup files
+*.backup
+
+# Ignore any custom or project-specific files
+__pycache__
+.venv
+credentials.json
+token.json
+mapstoken.json
+
+# End of .gitignore

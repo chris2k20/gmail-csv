@@ -1,0 +1,32 @@
+[MASTER]
+# Specify a pattern for files to check
+ignore-patterns=test_*.py,example_*.py
+
+# Set the maximum number of characters on a single line
+max-line-length=100
+
+# Define the directories to look in for Python modules
+init-hook='import sys; sys.path.append("./modules")'
+
+[MESSAGES CONTROL]
+# Disable specific warning or error messages
+disable=missing-docstring,
+        too-few-public-methods,
+        too-many-arguments
+
+[REPORTS]
+# Enable or disable reports at the end of the pylint output
+reports=no
+
+# Set the minimum score to exit with error
+fail-under=7.0
+
+[DESIGN]
+# Set the maximum number of parents for a class (useful for enforcing a flat class hierarchy)
+max-parents=7
+
+# Set the maximum number of attributes for a class
+max-attributes=10
+
+# Set the maximum number of boolean expressions in an if statement
+max-bool-expr=5
